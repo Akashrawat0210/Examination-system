@@ -1,0 +1,69 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    /* align-items: center; */
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .dark-mode {
+    background-color: #222;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px;
+    margin-right: 0.5rem;
+  }
+  
+  .navbar-brand a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-links ul {
+    text-decoration: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; /* Center-align list items horizontally */
+    margin: 0; /* Remove default margin */
+  }
+  
+ 
+  .navbar-links a {
+    justify-content: space-evenly;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #ddd;
+  }
+  
+  .navbar-search input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+  }
+  
+  .navbar-darkmode-toggle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-darkmode-toggle label {
+    margin-right: 0.5rem;
+  }
+  
